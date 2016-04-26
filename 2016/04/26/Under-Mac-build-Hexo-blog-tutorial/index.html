@@ -37,7 +37,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo,Github," />
+  <meta name="keywords" content="Github,Hexo," />
 
 
 
@@ -61,7 +61,7 @@
 <meta property="og:site_name" content="囤积文字">
 <meta property="og:description" content="安装Gitbrew install git #Mac电脑使用brew安装
 安装Node.js网上有些教程说是用brew安装可能会出问题，所以我直接到官网下载安装">
-<meta property="og:updated_time" content="2016-04-26T09:24:26.000Z">
+<meta property="og:updated_time" content="2016-04-26T09:34:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac下搭建Hexo博客教程">
 <meta name="twitter:description" content="安装Gitbrew install git #Mac电脑使用brew安装
@@ -328,9 +328,11 @@
 <li>配置hexo目录<br>在电脑上你愿意的一个位置建立一个文件夹，名字任意，然后在该目录下执行以下指令<br>hexo init<br>npm install #初始化依赖<br>hexo g #根据当前目录下文件生成静态网页<br>hexo s #启动服务器<br>就可以在浏览器中输入localhost:4000查看本地博客了。要注意的是，所有的hexo指令都必须在你所建立的目录下执行。  </li>
 <li><p>配置SSH keys<br>首先，打开的你终端（Mac），输入如下代码：<br><code>cd \~/. ssh</code><br>这行代码能够帮助你检查电脑上现有的SSH key。<br>如果提示：No such file or directory说明没有key文件，输入以下代码生成新的key文件：<br><code>ssh-keygen -t rsa -C &quot;邮件地址@youremail.com&quot;</code><br>这里的邮件地址填自己注册时的邮件地址，注意大小写，双引号不能省略，终端会返回代码让你确定文件名及加密串，一路回车就好。<br>找到本机上的id_rsa.pub文件，打开它（建议使用Sublime Text）复制里面的代码，记得不要多复制空格或换行，添加到github和coding</p>
 </li>
-<li><p>配置config.yml<br>修改config.yml最下方的<br>type:github<br>repo:自己的仓库。<br>然后运行hexo d就会上传到github  </p>
+<li><p>配置config.yml<br>修改config.yml最下方的<br>type:github<br>repo:自己的仓库。<br>然后运行</p>
 </li>
 </ol>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save  </span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>就会上传到github  </p>
 </span>
       
     </div>
@@ -344,9 +346,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
-          
             <a href="/tags/Github/" rel="tag">#Github</a>
+          
+            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
           
         </div>
       
@@ -362,6 +364,10 @@
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/04/26/123/" rel="prev" title="使用GitHub来同步blog源文件">
+                使用GitHub来同步blog源文件 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -433,7 +439,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">14</span>
+              <span class="site-state-item-count">15</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

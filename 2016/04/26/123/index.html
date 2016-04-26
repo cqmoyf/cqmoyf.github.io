@@ -37,7 +37,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Python," />
+  <meta name="keywords" content="Github," />
 
 
 
@@ -53,19 +53,22 @@
 
 
 
-<meta name="description" content="最近在学习python脚本时会发现有的脚本里面有几行代码，不是很明白什么意思12if __name__== &quot;__main__&quot;:	main()
-百度了一下说这就是方便代码复用的，我们可以在其他脚本方便的调用另外一个脚本里面的函数。引用下面一篇文章来让我们更加明白">
+<meta name="description" content="使用GitHub来同步blog源文件
+在github下建立一个新的repository ，名叫hexo（与hexo文件夹名一样即可）。
+在本地进入hexo文件夹，用命令git init创建仓库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Pyhone代码中name等于main的含义">
-<meta property="og:url" content="http://www.cqtjwz.com/2015/12/30/name-equal-main-in-Pyhone/index.html">
+<meta property="og:title" content="使用GitHub来同步blog源文件">
+<meta property="og:url" content="http://www.cqtjwz.com/2016/04/26/123/index.html">
 <meta property="og:site_name" content="囤积文字">
-<meta property="og:description" content="最近在学习python脚本时会发现有的脚本里面有几行代码，不是很明白什么意思12if __name__== &quot;__main__&quot;:	main()
-百度了一下说这就是方便代码复用的，我们可以在其他脚本方便的调用另外一个脚本里面的函数。引用下面一篇文章来让我们更加明白">
-<meta property="og:updated_time" content="2016-04-26T09:18:44.000Z">
+<meta property="og:description" content="使用GitHub来同步blog源文件
+在github下建立一个新的repository ，名叫hexo（与hexo文件夹名一样即可）。
+在本地进入hexo文件夹，用命令git init创建仓库">
+<meta property="og:updated_time" content="2016-04-26T09:47:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Pyhone代码中name等于main的含义">
-<meta name="twitter:description" content="最近在学习python脚本时会发现有的脚本里面有几行代码，不是很明白什么意思12if __name__== &quot;__main__&quot;:	main()
-百度了一下说这就是方便代码复用的，我们可以在其他脚本方便的调用另外一个脚本里面的函数。引用下面一篇文章来让我们更加明白">
+<meta name="twitter:title" content="使用GitHub来同步blog源文件">
+<meta name="twitter:description" content="使用GitHub来同步blog源文件
+在github下建立一个新的repository ，名叫hexo（与hexo文件夹名一样即可）。
+在本地进入hexo文件夹，用命令git init创建仓库">
 
 
 
@@ -77,7 +80,7 @@
   };
 </script>
 
-  <title> Pyhone代码中name等于main的含义 | 囤积文字 </title>
+  <title> 使用GitHub来同步blog源文件 | 囤积文字 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -272,7 +275,7 @@
             
             
               
-                Pyhone代码中name等于main的含义
+                使用GitHub来同步blog源文件
               
             
           </h1>
@@ -281,8 +284,8 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-12-30T10:06:16+08:00" content="2015-12-30">
-              2015-12-30
+            <time itemprop="dateCreated" datetime="2016-04-26T17:43:38+08:00" content="2016-04-26">
+              2016-04-26
             </time>
           </span>
 
@@ -292,8 +295,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/30/name-equal-main-in-Pyhone/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/30/name-equal-main-in-Pyhone/" itemprop="commentsCount"></span>
+                <a href="/2016/04/26/123/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/26/123/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -312,12 +315,23 @@
       
 
       
-        <span itemprop="articleBody"><p>最近在学习python脚本时会发现有的脚本里面有几行代码，不是很明白什么意思<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__== <span class="string">"__main__"</span>:</span><br><span class="line">	main()</span><br></pre></td></tr></table></figure></p>
-<p>百度了一下说这就是方便代码复用的，我们可以在其他脚本方便的调用另外一个脚本里面的函数。<br>引用下面一篇文章来让我们更加明白<br><a id="more"></a><br><a href="http://www.cnblogs.com/xuxm2007/archive/2010/08/04/1792463.html" target="_blank" rel="external">《python中if __name__ == ‘__main__’: 的解析》</a></p>
-<blockquote>
-<p>模块是对象，并且所有的模块都有一个内置属性 __name__。一个模块的 __name__ 的值取决于您如何应用模块。如果 import 一个模块，那么模块__name__ 的值通常为模块文件名，不带路径或者文件扩展名。但是您也可以像一个标准的程序样直接运行模块，在这 种情况下, __name__ 的值将是一个特别缺省”__main__”。<br>///////////////////////////////////////////////////////////////////////////////////////////////////<br>在cmd 中直接运行.py文件,则__name__的值是’__main__’;<br>而在import 一个.py文件后,__name__的值就不是’__main__’了;<br>从而用if __name__ == ‘__main__’来判断是否是在直接运行该.py文件<br>如:<br>#Test.py<br>class Test:<br>def __init(self):pass<br>def f(self):print ‘Hello, World!’<br>if __name__ == ‘__main__’:<br>Test().f()<br>#End<br>你在cmd中输入:<br>C:&gt;python Test.py<br>Hello, World!<br>说明:”__name__ == ‘__main__’”是成立的<br>你再在cmd中输入:<br>C:&gt;python<br>>&gt;&gt;import Test<br>>&gt;&gt;Test.__name__                #Test模块的__name__<br>‘Test’<br>>&gt;&gt;__name__                       #当前程序的__name__<br>‘__main__’<br>无论怎样,Test.py中的”__name__ == ‘__main__’”都不会成立的!<br>所以,下一行代码永远不会运行到!</p>
-</blockquote>
-<p>通过这篇文章，我们知道，.py文件会根据自身的使用方式，它的__name__的属性会不同。如果他的属性是“__main__”，那么脚本就知道自己是被直接执行的。如果是被别的文件import的来用，__name__的属性就会是脚本自己的文件名，从而防止错误的执行。引入的if语句的作用就是  通过检查该模块的__name__属性来实现判断.py文件被使用的方式。从而方便我们代码复用，也可以测试模块。</p>
+        <span itemprop="articleBody"><h2 id="使用GitHub来同步blog源文件"><a href="#使用GitHub来同步blog源文件" class="headerlink" title="使用GitHub来同步blog源文件"></a>使用GitHub来同步blog源文件</h2><ol>
+<li>在github下建立一个新的repository ，名叫hexo（与hexo文件夹名一样即可）。</li>
+<li>在本地进入hexo文件夹，用命令git init创建仓库<a id="more"></a></li>
+<li><p>设置远程仓库地址，并更新  </p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github<span class="selector-class">.com</span>:cqmoyf/hexo<span class="selector-class">.git</span></span><br><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改.gitignore文件（如果没有，请创建），在里面加入public/和.deploy/，因为这两个文件夹是每次generate和deploy都会更新，对我们没用，因此忽略这两个文件的更新。tips:此处最好不要用windows自带记事本打开，因为默认的回车符不一样，会导致无法生效，可以使用sublime或notepad。</p>
+</li>
+<li><p>使用命令git add .，将所有文件提交到缓存区。</p>
+</li>
+<li><p>使用命令git commit -m “add all files” ，将这些文件提交到本地仓库。</p>
+</li>
+<li><p>使用命令git push origin master，将本地仓库的改动推送到github仓库。</p>
+</li>
+</ol>
+<p>现在在任何一台电脑，只需要<br>git clone <a href="https://github.com/cqmoyf/hexo.git，" target="_blank" rel="external">https://github.com/cqmoyf/hexo.git，</a><br>就可以将hexo的源文件复制到本地了。<br>之后，当写博客后，只需要git add .<br>再git commit -m<br>再git push origin<br>即可提交到远程仓库。<br>当远程仓库有更新时，使用git pull origin master或者git fetch就可以同步代码到本地了。</p>
+<p>参考资料:<br><a href="http://wuchong.me/blog/2014/01/17/use-github-to-manage-hexo-source/" target="_blank" rel="external">使用GitHub来管理博客源文件</a></p>
 </span>
       
     </div>
@@ -331,7 +345,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Python/" rel="tag">#Python</a>
+            <a href="/tags/Github/" rel="tag">#Github</a>
           
         </div>
       
@@ -340,17 +354,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/12/28/win10-chrome-flash-error/" rel="next" title="Win10 Chrome flash无法加载的解决办法">
-                <i class="fa fa-chevron-left"></i> Win10 Chrome flash无法加载的解决办法
+              <a href="/2016/04/26/Under-Mac-build-Hexo-blog-tutorial/" rel="next" title="Mac下搭建Hexo博客教程">
+                <i class="fa fa-chevron-left"></i> Mac下搭建Hexo博客教程
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/02/16/Strange-country-Python/" rel="prev" title="奇怪的国家-Python-计蒜客">
-                奇怪的国家-Python-计蒜客 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -377,8 +387,8 @@
         
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/12/30/name-equal-main-in-Pyhone/"
-           data-title="Pyhone代码中name等于main的含义" data-url="http://www.cqtjwz.com/2015/12/30/name-equal-main-in-Pyhone/">
+      <div class="ds-thread" data-thread-key="2016/04/26/123/"
+           data-title="使用GitHub来同步blog源文件" data-url="http://www.cqtjwz.com/2016/04/26/123/">
       </div>
     
   </div>
@@ -484,7 +494,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用GitHub来同步blog源文件"><span class="nav-number">1.</span> <span class="nav-text">使用GitHub来同步blog源文件</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
